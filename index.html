@@ -57,6 +57,10 @@
             <!-- Text Content -->
             <div class="w-full lg:w-2/3 px-4 py-12 sm:px-6 lg:py-24 lg:px-8 z-10 bg-white order-2 lg:order-1">
                 <div class="sm:text-center lg:text-left">
+                    <!-- Added Name in Grey -->
+                    <div class="text-4xl tracking-tight font-extrabold text-gray-400 sm:text-5xl md:text-6xl mb-1">
+                        David Woodbury
+                    </div>
                     <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                         <span class="block xl:inline">Designing the future of</span>
                         <span class="block text-ncsu-red">Learning Spaces</span>
@@ -65,7 +69,7 @@
                         Department Head, Learning Spaces & Services at North Carolina State University Libraries. 
                         Specializing in makerspaces, digital media studios, and technology-rich environments for higher education.
                     </p>
-                    
+                    <!-- Removed ORCID and Contact buttons here -->
                 </div>
             </div>
 
@@ -112,6 +116,15 @@
             </div>
             
             <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- New Management Card -->
+                <div class="bg-white overflow-hidden shadow rounded-lg hover-scale p-6">
+                    <div class="flex items-center mb-4">
+                        <i data-lucide="users" class="h-8 w-8 text-ncsu-red"></i>
+                        <h4 class="ml-3 text-lg font-medium text-gray-900">Management & Leadership</h4>
+                    </div>
+                    <p class="text-gray-500">Leading a department of librarians and specialists, providing instruction and supporting a diverse portfolio of experiential learning environments.</p>
+                </div>
+
                 <!-- Card 1 -->
                 <div class="bg-white overflow-hidden shadow rounded-lg hover-scale p-6">
                     <div class="flex items-center mb-4">
@@ -127,7 +140,8 @@
                         <i data-lucide="monitor-play" class="h-8 w-8 text-ncsu-red"></i>
                         <h4 class="ml-3 text-lg font-medium text-gray-900">Digital Media</h4>
                     </div>
-                    <p class="text-gray-500"> overseeing audio/music production studios and digital media creation facilities.</p>
+                    <!-- Updated Digital Media Text -->
+                    <p class="text-gray-500">Overseeing audio production studios and digital media creation facilities.</p>
                 </div>
 
                 <!-- Card 3 -->
@@ -142,10 +156,11 @@
                 <!-- Card 4 -->
                 <div class="bg-white overflow-hidden shadow rounded-lg hover-scale p-6">
                     <div class="flex items-center mb-4">
-                        <i data-lucide="layout" class="h-8 w-8 text-ncsu-red"></i>
+                        <i data-lucide="door-open" class="h-8 w-8 text-ncsu-red"></i>
                         <h4 class="ml-3 text-lg font-medium text-gray-900">Learning Spaces</h4>
                     </div>
-                    <p class="text-gray-500">Expertise in the Learning Space Toolkit and informal learning space design projects.</p>
+                    <!-- Updated Learning Spaces Text -->
+                    <p class="text-gray-500">Designing and implementing innovative learning environments that facilitate hands-on, experiential activities.</p>
                 </div>
 
                 <!-- Card 5 -->
@@ -168,21 +183,21 @@
             <div class="space-y-8">
                 <!-- Work Item 1 -->
                 <div class="flex flex-col sm:flex-row">
-                    <div class="sm:w-32 flex-shrink-0 text-sm text-gray-500 font-mono mb-2 sm:mb-0">May 2025</div>
-                    <div>
-                        <h4 class="text-lg font-bold text-gray-900">Making Noise in the Library</h4>
-                        <p class="text-gray-600 italic">Next Library 2025, Aarhus, Denmark</p>
-                        <p class="mt-2 text-gray-500">Presented on building literacies and community through music and making in academic libraries.</p>
-                    </div>
-                </div>
-
-                <!-- Work Item 2 -->
-                <div class="flex flex-col sm:flex-row">
                     <div class="sm:w-32 flex-shrink-0 text-sm text-gray-500 font-mono mb-2 sm:mb-0">Sep 2025</div>
                     <div>
                         <h4 class="text-lg font-bold text-gray-900">Sustainable Staffing Models for Experiential Learning</h4>
                         <p class="text-gray-600 italic">Designing Libraries for the 21st Century, Rochester, NY</p>
                         <p class="mt-2 text-gray-500">Co-authored presentation on "Students at the Center," exploring staffing strategies for modern library services.</p>
+                    </div>
+                </div>
+
+                <!-- Work Item 2 -->
+                <div class="flex flex-col sm:flex-row">
+                    <div class="sm:w-32 flex-shrink-0 text-sm text-gray-500 font-mono mb-2 sm:mb-0">May 2025</div>
+                    <div>
+                        <h4 class="text-lg font-bold text-gray-900">Making Noise in the Library</h4>
+                        <p class="text-gray-600 italic">Next Library 2025, Aarhus, Denmark</p>
+                        <p class="mt-2 text-gray-500">Presented on building literacies and community through music and making in academic libraries.</p>
                     </div>
                 </div>
 
@@ -212,6 +227,7 @@
                 <h4 class="text-lg font-bold mb-4">Contact</h4>
                 <ul class="space-y-2 text-gray-400">
                     <li class="flex items-center"><i data-lucide="mail" class="h-5 w-5 mr-2"></i> dnwoodbu@ncsu.edu</li>
+                    <li class="flex items-center"><i data-lucide="phone" class="h-5 w-5 mr-2"></i> (919) 513-7192</li>
                     <li class="flex items-center"><i data-lucide="map-pin" class="h-5 w-5 mr-2"></i> North Carolina State University Libraries</li>
                 </ul>
             </div>
@@ -230,7 +246,7 @@
                         <span class="sr-only">ORCID</span>
                         <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.306v7.419h2.297c2.194 0 3.169-1.631 3.169-3.638 0-2.094-1.113-3.781-3.325-3.781h-2.141z"/></svg>
                     </a>
-                    <a href="https://www.lib.ncsu.edu/staff/dnwoodbu" class="text-gray-400 hover:text-white transition">
+                    <a href="https://www.lib.ncsu.edu/" class="text-gray-400 hover:text-white transition">
                         <i data-lucide="library" class="h-6 w-6"></i>
                     </a>
                 </div>
